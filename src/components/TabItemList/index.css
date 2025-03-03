@@ -1,0 +1,33 @@
+.TabItemList-container {
+  width: 130px;
+  height: 130px;
+  list-style-type: none;
+  background-size: cover;
+}
+
+.image-button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.tabItem-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .TabItemList-container {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .TabItemList-container {
+    width: 80px;
+    height: 80px;
+  }
+}

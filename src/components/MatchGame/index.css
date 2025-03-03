@@ -1,0 +1,120 @@
+.matchGame-bg-container {
+      background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+      background-size: cover;
+      min-height: 100vh;
+      height: auto;
+    }
+    
+    .macthGame-main-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      margin-top: 50px;
+      padding-bottom: 50px;
+    }
+    
+    .game-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 15px;
+      width: 90%;
+      max-width: 720px;
+    }
+    
+    .random-image-container {
+      height: auto;
+      width: 100%;
+    }
+    
+    .random-image {
+      width: 100%;
+      height: auto;
+      max-height: 400px;
+    }
+    
+    .tabSection {
+      width: 100%;
+      max-width: 350px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .tabItem-list {
+      margin-left: 0px;
+      padding-left: 0px;
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    
+    .tabItem {
+      color: white;
+      font-family: Roboto;
+      font-size: 1.2rem;
+      background: transparent;
+      border: none;
+      outline: none;
+    }
+    
+    .tabItem-list-section {
+      width: 100%;
+      max-width: 800px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    
+    .active-btn {
+      border-bottom: 1px solid #fec653;
+      color: #fec653;
+      font-weight: bold;
+    }
+    
+    @media (max-width: 768px) {
+      .game-section {
+        width: 95%;
+      }
+    
+      .random-image {
+        max-height: 300px;
+      }
+    
+      .tabItem {
+        font-size: 1rem;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .macthGame-main-section {
+        margin-top: 30px;
+      }
+    
+      .random-image {
+        max-height: 250px;
+      }
+    
+      .tabItem-list {
+        gap: 8px;
+      }
+    
+      .tabItem {
+        font-size: 0.9rem;
+      }
+    
+      .tabItem-list-section {
+        gap: 8px;
+      }
+    }

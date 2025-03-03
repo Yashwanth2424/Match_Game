@@ -1,0 +1,103 @@
+.game-over-bg-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    
+    .game-over-section {
+      background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+      background-size: cover;
+      height: auto;
+      width: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 14px;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .trophy-image-card {
+      margin-top: 180px;
+    }
+    
+    .trophy {
+      height: 320px;
+      width: 500px;
+    }
+    
+    .your-score-text {
+      color: white;
+      font-size: 1.6rem;
+      font-family: Roboto;
+      text-align: center;
+    }
+    
+    .final-score-text {
+      color: white;
+      font-size: 2.6rem;
+      font-family: Roboto;
+      text-align: center;
+    }
+    
+    .try-again-button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      height: 60px;
+      width: 180px;
+      background-color: #cf60c8;
+      color: white;
+      font-size: 1.4rem;
+      font-family: Roboto;
+      font-weight: bold;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    @media (max-width: 768px) {
+      .game-over-section {
+        width: auto;
+        height: auto;
+        padding-top: 100px;
+        background-size: cover;
+      }
+      .trophy-image-card {
+            margin-top: 180px;
+          }
+          
+      .trophy {
+        height: 250px;
+        width: 400px;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .game-over-section {
+        width: 100%;
+        padding-top: 50px;
+        background-size: cover;
+      }
+      .trophy-image-card {
+            margin-top: 180px;
+          }
+          
+      .trophy {
+        height: 200px;
+        width: 300px;
+      }
+      .final-score-text {
+        font-size: 2rem;
+      }
+      .try-again-button {
+        height: 50px;
+        width: 160px;
+        font-size: 1.2rem;
+      }
+    }
+    
